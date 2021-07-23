@@ -6,6 +6,7 @@ import { CardList } from './CardList/cardList';
 import { CompoundCard } from './CompoundCard/compoundCard';
 import { CardButtons } from './CompoundCard/CardButtons/cardButtons';
 import { CardButton } from './CompoundCard/CardButtons/CardButton/cardButton.js';
+import { Sidebar } from './Sidebar/sidebar';
 
 function App() {
 
@@ -50,6 +51,9 @@ function App() {
               subtitle="Subtítulo chulo" 
             /> 
         </CardList>
+      </TabPane>
+      <TabPane tab="Sidebar" key="5" className="sidebar">
+        <Sidebar />
       </TabPane>
     </Tabs>
   );
