@@ -1,0 +1,31 @@
+.card_container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(230, 229, 229);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.divider {
+    border: 0.5px solid rgb(230, 229, 229);
+    width: 90%;
+}
+
+h2, h3 {
+    font-family:sans-serif;
+}
+
+.buttons_container {
+    display: inline-block;
+    overflow: auto;
+}
+
+.button {
+    border: 0;
+    border-radius: 0;
+}
